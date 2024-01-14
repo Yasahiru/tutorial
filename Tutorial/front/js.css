@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    font-family:'Ubuntu',sans-serif;
+}
+.header{
+    position:fixed;
+    background-color:#e3e313;
+    margin:0;
+    padding:18px; 
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    left:0;
+    right:0;
+}
+.header a:hover,.Courses .select:hover,.link:hover{
+    color:#fff;
+}
+.profile a:hover{
+    color:black;
+}
+.header code{
+    font-size:30px;
+}
+.header h1{
+    color:#000;
+}
+.header a{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+    font-size:24px;
+}
+.Tutorial{
+    color:#000;
+    font-size:65px;
+    font-weight:bold;
+    text-align:center;
+}
+.Tutorial hr{
+    width:370px;
+    height:4px;
+    background-color: #e3e313;
+    color:#e3e313;
+    margin:auto;
+}
+.cont{
+    margin:0 25px;
+}
+.title{
+    font-weight:bold;
+    font-size:21px;
+}
+.intro{
+    color:purple;
+    font-size:49px;
+    font-weight:bold;
+    text-align:center;
+}
+code{
+    font-family: 'Source Code Pro', monospace;
+    color:purple;
+    font-weight:bold;
+}
+.example,.example_1,.example_2,.example_3{
+    background-color:whitesmoke;
+}
+.example_1 h3{
+    text-align:center;
+}
+.example{
+    height:60px;
+}
+.example_1{
+    height:135px;
+}
+.example_2{
+    height:370px;
+}
+.example_3{
+    height:390px;
+}
+.ex{
+    color:#9e219e;
+}
+.tutorial{
+    background-color:#e3e313;
+    left:0;
+    right:0;
+    height:89px;
+    font-size:25px;
+    font-weight:bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    align-items:center;
+    text-align:center;
+    padding-top:35px; 
+}
+.warning{
+    color:red;
+    font-size:19px;
+}
+.warning a{
+    text-decoration:underline;
+    color:red;
+}
+hr{
+    width:3px;
+    background-color:transparent;
+}
+button{
+    background-color:#e3e313;
+    border-radius:15px;
+    height:43px;
+    width:38px;
+    font-weight:bold;
+    color:#000;
+    cursor:pointer;
+}
+.hh{
+    display:flex;
+    justify-content:space-around;
+}
+.img{
+    background-image:url(../img/bird.jpg);
+    background-size:cover;
+    border-radius:50%;
+    width:90px;
+    height:90px;
+}
+.link{
+    color:#000;
+    font-weight:bold;
+}
+.select{
+    border-radius:4px;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:1.6rem;
+    cursor:pointer;
+}
+.list{
+    margin-left:-13px;
+    text-align:center;
+    line-height:30px;
+    background-color:#fff;
+    border-radius:4px;
+    position:absolute;
+    opacity:0;
+    visibility:hidden;
+    transition:250ms;
+    border:2px solid #000;
+}
+.list ul li a{
+    margin-right:33px;
+    font-weight: bold;
+    font-size:18px;
+    color:black;
+}
+.Courses:hover .list{
+    opacity:1;
+    visibility:visible;
+}
+.list li:hover {
+    cursor: pointer;
+}
+.list .htmll:hover{
+    color:red;
+}
+.list .csss:hover{
+    color:blue;
+}
+.list .jss:hover{
+    color:#e3e313;
+}
+.footer{
+    background-color:#e3e313;
+    display:flex;
+    justify-content: space-between;
+    height:28vh;
+    width:100%;
+    margin:0;
+}
+.footer .block{
+    margin-right:33px;
+}
+.fa-whatsapp{
+    color:green;
+}
+.fa-instagram{
+    color:purple;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-linkedin{
+    color:darkblue;
+}
+.fab{
+    font-size:26px;
+    margin: 10px;
+}
+.footer .title span{
+    color:#000;
+    font-size:44px;
+    font-weight:bold;
+    font-family:Verdana;
+}
+.footer .title{
+    margin:30px 0 0 30px;
+}
+.footer span{
+    font-size:32px;
+    font-weight:bold;   
+}
+.block .copy{
+    font-size:14px;
+    font-weight:bold;
+    bottom:0;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>CSS</title>
+</head>
+<body>
+    <div class="header_css">
+        <a href="../index.html">Acceuil</a>
+        <div class="Courses">
+			<div class="select">
+				<span class="link">Courses</span>&ensp;
+				<i class="fa fa-caret-down icon"></i>
+			</div>
+			<div class="list">
+				<ul type="none">
+					<li><a href="html.html" class="htmll">HTML</a></li>
+					<li><a href="css.html" class="csss">CSS</a></li>
+					<li><a href="js.html" class="jss">Js</a></li>
+				</ul>
+			</div>
+		</div>
+        <code><h1 class="h_css">CSS course</h1></code>
+        <a href="../log/log.html">Login</a>
+        <div class="profile">
+			<a href=""><div class="img"></div>
+			<span>username</span></a>
+		</div>
+    </div>
+    <div id="header"></div>
+     <br><br><br><br><br><br>
+    <div class="cont_css">
+        <br><br><br><br>
+        <code class="title">CSS3 Tutorial</code>
+        <h1 class="h_css">What is CSS?</h1><br>
+            <ul>
+                <li>CSS stands for Cascading Style Sheets</li>
+                <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                <li>External stylesheets are stored in CSS files</li>
+            </ul><br><br>
+        <h1 class="h_css">Why Use CSS?</h1><br>
+        <dl>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes</dl><br><br>
+        <div class="example_css">
+            <code class="code_css">
+                <pre>
+
+                    <font class="declaration">body</font> {
+                        <span class="proprety">background-color</span>: <span class="value">lightblue</span>;
+                      }
+                      
+                      <span class="declaration">h1</span> {
+                        <span class="proprety">color</span>: <span class="value">white</span>;
+                        <span class="proprety">text-align</span>: <span class="value">center</span>;
+                      }
+
+                      <span class="declaration">p</span> {
+                        <span class="proprety">font-family</span>:<span class="value">verdana</sapn>;
+                        <span class="proprety">font-size</span>: <sapn class="value">20px</span>;
+                      }
+                </pre>
+            </code>
+        </div><br><br>
+        <h1 class="h_css">CSS Solved a Big Problem</h1><br><br>
+        <ul type="none">
+            <li>HTML was NEVER intended to contain tags for formatting a web page!</li><br>
+            <li>HTML was created to describe the content of a web page, like: <br><br> &ensp;&ensp;<code class="code_css"> &lt;h1&gt;This is a heading&lt;/h1&gt;</code> <br><br> &ensp;&ensp;&ensp;<code class="code_css">&lt;p&gt;This is a paragraph&lt;p&gt;</code></li><br>
+            <li>When tags like <code class="code_css">&lt;font&gt;</code>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. <br>Development of large websites, where fonts and color information were added to every single page, became a long and expensive <br>process.</li><br>
+            <li>To solve this problem, the World Wide Web Consortium (W3C) created CSS.</li>
+            <li>CSS removed the style formatting from the HTML page!</li>
+        </ul><br>
+    </div><br>
+        <div class="tutorial">
+            If you don't know what HTML is, we suggest that you read our <a href="html.html">HTML Tutorial.</a>
+        </div><br><br>
+    <div class="cont_css">
+            <h1 class="h_css">CSS Syntax</h1><br>
+            <div class="syntax">
+                <div class="h1">
+                    <code> <br>&ensp;<abbr title="declaration">h1</abbr></code>&ensp;
+                </div> 
+                <div class="dec">
+                    <code><br>{<abbr title="proprety">color</abbr>: <abbr title="value">blue</abbr> ; <abbr title="proprety">font-size</abbr>:<abbr title="value">12px</abbr>;}</code>
+                </div>
+            </div><br><br>
+            <ul>
+                <li>The selector points to the HTML element you want to style.</li><br>
+                <li>The declaration block contains one or more declarations separated by semicolons.</li><br>
+                <li>Each declaration includes a CSS property name and a value, separated by a colon.</li><br>
+                <li>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</li>
+            </ul><br><br>
+            <div class="example_css"><br>
+                <h2>example:</h2> 
+                <p>&ensp;&ensp;&ensp;In this example all <code>&lt;p&gt;</code> elements will be center-aligned, with a red text color:</p>
+                <pre>
+                <div class="bg_ex">  
+                        <code class="code_css">
+                            <span class="declaration">p</span> {
+                                <span class="proprety">color</span>:<span class="value">red</span>;
+                                <span class="proprety">text-align</span>:<span class="value">center</span>;
+                            } <br>
+                        </code>
+                    </div>  
+                </pre>
+            </div><br><br>
+            <h1 class="h_css">Example Explained</h1><br>
+            <ul>
+                <li><code class="declaration">&lt;p&gt;</code> is a selector in CSS (it points to the HTML element you want to style: &lt;p&gt;).</li>
+                <li><code class="proprety">color</code> is a property, and <code class="value">red</code> is the property value.</li>
+                <li><code class="proprety">text-align</code> is a property, and <code class="value">center</code> is the property value.</li>
+            </ul><br><br>
+            <h1 class="h_css">CSS Comments</h1><br>
+            <p>CSS comments are not displayed in the browser, but they can help document your source code.</p><br>
+            <ul>
+                <li>Comments are used to explain the code, and may help when you edit the source code at a later date.</li><br>
+                <li>Comments are ignored by browsers.</li><br>
+                <li>A CSS comment is placed inside the <code class="declaration">&lt;style&gt;</code> element, and starts with <code class="value">/*</code> and ends with <code class="value">*/</code>:</li>
+            </ul><br><br>
+            <div class="example_css">
+                <h2 class="h_css">example:</h2> 
+                <pre>
+                    <p><code class="comment">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;/* This is a single-line comment */</code></p>
+                
+                    <code class="declaration">p</code> {
+                        <code class="proprety">color</code>: <code class="value">red</code> ;
+                    }
+                    <p>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;You can add comments wherever you want in the code:</p>
+                    <code class="declaration">p</code> {
+                        <code class="proprety">color</code>: <code class="value">red</code>;&ensp;<code class="comment">&ensp;/* Set text color to red */</code>
+                      }
+                </pre>
+            </div>
+    </div>  <br><br>
+    <div class="hh">
+        <div class="non"></div>
+        <div class="oui">
+            <a href="#header"><button>Up</button></a>
+        </div>
+    </div> <br>
+    <div class="footer" id="footer">
+		<div class="title">
+			<span>Dev academy</span><br><br>
+			<a href="#"><i class="fab fa-facebook">	</i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-whatsapp">	</i></a>
+			<a href="#"><i class="fab fa-linkedin">	</i></a>
+		</div>
+		<div class="block"><br><br>
+			<span class="copy">Copyright &COPY; 2023 All rights reserved Dev academy</span>
+		</div>
+	</div>
+</body>
+</html>

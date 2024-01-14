@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wiph=device-wiph, initial-scale=1.0">
+    <link rel="stylesheet" href="html.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>html</title>
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html">Acceuil</a>
+        <div class="Courses">
+			<div class="select">
+				<span class="link">Courses</span>&ensp;
+				<i class="fa fa-caret-down icon"></i>
+			</div>
+			<div class="list">
+				<ul type="none">
+					<li><a href="html.html" class="htmll">HTML5</a></li>
+					<li><a href="css.html" class="csss">CSS3</a></li>
+					<li><a href="js.html" class="jss">Js</a></li>
+				</ul>
+			</div>
+		</div>
+        <a href="#"><code> <h1>HTML course</h1></code></a>
+        <a href="../log/log.html">Login</a>
+        <div class="profile">
+            <a href=""><div class="img"></div>
+            <span>username</span></a>
+        </div>
+    </div> 
+    <br><br><br><br><br><br><br><br>
+    <div id="header"></div>
+    <div class="continure">
+        <br><br><br>
+        <code class="h">HTML5 Tutorial</code>  <br>
+        <br><br><br><br><br>
+        <div class="sum" id="index">
+            <h1 >Index</h1>
+            <div class="sum-con">
+                <div class="leftt">
+                    <a href="#doc">The <code class="code">DOCTYPE</code> Declaration</a>
+                    <br>
+                    <a href="#hd">HTML <code class="code">Headings</code></a>
+                    <br>
+                    <a href="#par">HTML <code class="code">Paragraphs</code></a>
+                    <br>
+                    <a href="#txt">HTML <span>Text Formatting</span></a>
+                    <br>
+                    <a href="##el">HTML <span>Formatting Elements</span></a>
+                    <br>
+                    <a href="#lin">HTML <code class="code"> Links</code></a>
+                    <br>
+                    <a href="#im">HTML <code class="code">Images </code></a>
+                </div>
+                <div class="centt">
+                    <a href="#tb">HTML <code class="code">Tables </code></a>
+                    <br>
+                    <a href="#lt">HTML <code class="code"> Lists</code></a>
+                    <br>
+                    <a href="#for">HTML <code class="code"> Form</code> Elements</a>
+                    <br>
+                    <a href="#qu">HTML <code class="code"> Quotation</code></a>
+                    <br>
+                    <a href="#abbr">HTML <code class="code">abbr</code> for Abbreviations</a>
+                    <br>
+                    <a href="#con">HTML <code class="code">address</code> for Contact Information</a>
+                </div>
+                <div class="riight">
+                    <a href="#com">HTML <code class="code"> Comments</code></a>
+                    <br>
+                    <a href="#css">HTML <code class="code"> Style</code> - CSS</a>
+                    <br>
+                    <a href="#bl">HTML <code class="code"> Block</code> and <code class="code"> Inline</code> Elements</a>
+                    <br>
+                    <a href="#div">The <code class="code">div</code> Element</a>
+                    <br>
+                    <a href="#span">The <code class="code">span</code> Element</a>
+                    <br>
+                    <a href="#class">HTML <code class="code">class </code> Attribute</a>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    <div class="Introduction">
+        <h1 id="intro"> Introduction</h1><br>
+            <p>The common markup language used to create Web pages is HTML.</p><br>
+         <h1>What is HTML?</h1> <br>
+            <ul>
+                <li>The acronym for Hyper Text Markup Language is HTML.</li>
+                <li>The common markup language for building websites is HTML.</li>
+                <li>HTML explains how a web page is put together.</li>
+                <li>HTML is made up of several components.</li>
+                <li> HTML elements instruct the browser how to display the content.</li>
+                <li>HTML elements designate information using phrases like "this is a heading," "this is a paragraph," "this is a link," and so on.</li>
+            </ul><br>
+        <div class="example"><br>
+            <h2 class="ex">Example</h2><br>
+            <code class="code">
+                <pre>
+        &lt;!DOCTYPE html&gt; 
+        &lt;html&gt; 
+        &lt;head&gt; 
+
+            &lt;title&gt; Page Title &lt;/title&gt; 
+
+        &lt;/head&gt; 
+        &lt;body&gt; 
+
+            &lt;h1&gt;  Heading &lt;/h1&gt; 
+            &lt;p&gt;  paragraph &lt;/p&gt; 
+        
+        &lt;/body&gt; 
+        &lt;/html&gt;
+                </pre> 
+            </code>
+        </div><br>
+        <h2> explanation of the example</h2><br>
+             <ul>
+                <li>The <code class="code">&lt;!DOCTYPE html&gt;</code> declaration defines that this document is an HTML5 document                </li>
+                <li>The <code class="code">&lt;html&gt;</code> element is the root element of an HTML page</li>
+                <li>The <code class="code">&lt;head&gt;</code> element contains meta information about the HTML page</li>
+                <li>The <code class="code">&lt;title&gt;</code>element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+                <li>The <code class="code">&lt;body&gt;</code> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc</li>
+                <li>The <code class="code">&lt;h1&gt;</code>element defines a large heading</li>
+                <li>The <code class="code">&lt;p&gt;</code>element defines a paragraph</li>
+            </ul><br>
+         <h2 id="structure">HTML Page Structure</h2><br>
+         <h4>An illustration of an HTML page structure may be seen below:</h4>
+            <div class="html">
+                <code class="code">&lt;html&gt;</code>
+                    <div class="head">
+                        <code class="code">&lt;head&gt;</code> <br>
+                                <code class="code" class="title">
+                                    <code class="code">&lt;title&gt;</code> 
+                                    <code class="code">Page title</code> 
+                                    <code class="code">&lt;/title&gt;</code> <br>
+                                </code>
+                        <code class="code">&lt;/head&gt;</code>
+                     </div>
+                     <div class="body">
+                        <code class="code">&lt;body&gt;</code> <br>
+                            <code class="code" class="h1">
+                                <code class="code">&lt;h1&gt;</code>
+                                <code class="code">This is a heading</code>
+                                <code class="code">&lt;/h1&gt;</code>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <br>
+                            </code>
+                        <br>
+                            <code class="code" class="p" >
+                                <code class="code">&lt;p&gt;</code>
+                                <code class="code">This is a paragraph</code>
+                                <code class="code">&lt;/p&gt;</code>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<br>
+                            </code> 
+                        <br>
+                            <code class="code" class="p" >
+                                <code class="code">&lt;p&gt;</code>
+                                <code class="code">This is another paragraph.</code>
+                                <code class="code">&lt;/p&gt;</code>&ensp;&ensp;&ensp;<br>
+                            </code>
+                        <code class="code">&lt;/body&gt;</code>
+                    </div>
+                <code class="code">&lt;/html&gt;</code>
+            </div>
+    </div><br>
+    <h1>HTML Basic Examples</h1><br>
+    <div class="basic">
+        <h1 id="Documents">HTML Documents</h1><br>
+        <ul>
+            <li>All HTML documents must start with a document type declaration:<code class="code">&lt;!DOCTYPE html&gt;</code>. </li>
+            <li>The HTML document itself begins with<code class="code">&lt;html&gt;</code> and ends with<code class="code">&lt;/html&gt;</code>. </li>
+            <li>The visible part of the HTML document is between<code class="code">&lt;body&gt;</code>and<code class="code">&lt;/body&gt;</code>.</li>
+        </ul><br>
+        <div class="example">
+            <h1>Example</h1><br>
+                <div class="bg_ex">
+                    <code class="code">
+                        &lt;!Doctype html&gt; <br>
+                        &lt;html&gt; <br>
+                        &lt;body&gt; <br><br>
+                        &lt;h1&gt;My First Heading&lt;/h1&gt;<br> 
+                        &lt;p&gt;My first paragraph.&lt;/p&gt;<br><br>
+                        &lt;/body&gt; <br>
+                        &lt;/html&gt; <br>
+                    </code>
+                </div><br>
+        </div><br>
+        <h1 id="doc">The <code class="code">&lt;!DOCTYPE&gt;</code>Declaration</h1><br>
+        <ul>
+            <li><code class="code">&lt;!DOCTYPE&gt;</code>declaration represents the document type, and helps browsers to display web pages correctly. <br>It must only appear once, at the top of the page (before any HTML tags).</li>
+            <li><code class="code">&lt;!DOCTYPE&gt;</code>declaration is not case sensitive.</li>
+            <li><code class="code">&lt;!DOCTYPE&gt;</code>declaration for HTML5 is: <code class="code"> &lt;!DOCTYPE html&gt;</code></li>
+        </ul><br>
+        <h1 id="hd">HTML Headings</h1><br>
+        <p>HTML headings are defined with the<code class="code">&lt;h1&gt;</code> to<code class="code">&lt;h6&gt;</code> tags.</p>
+        <p><code class="code">&lt;h1&gt;</code>defines the most important heading.<code class="code">&lt;h6&gt;</code>defines the least important heading: </p><br>
+        <div class="example">
+            <code>
+                <code class="code">&lt;h1&gt;</code>This is heading 1<code class="code">&lt;/h1&gt;</code> <br>
+                <code class="code">&lt;h2&gt;</code>This is heading 2<code class="code">&lt;/h2&gt;</code> <br>
+                <code class="code">&lt;h3&gt;</code>This is heading 3<code class="code">&lt;/h3&gt;</code> <br>
+            </code>
+            </div><br>
+        <h1 id="par">HTML Paragraphs</h1><br>
+        <p>HTML paragraphs are defined with the<code class="code">&lt;p&gt;</code> tag:</p> <br>
+        <div class="example">
+            <code>
+                <code class="code">&lt;p&gt;</code>This is a paragraph.<code class="code">&lt;/p&gt;</code> <br>
+                <code class="code">&lt;p&gt;</code>This is another paragraph.<code class="code">&lt;/p&gt;</code> <br>
+            </code>
+            </div><br>
+         <h1 id="txt">HTML Text Formatting</h1><br>
+         <p>HTML contains several elements for defining text with a special meaning.</p><br>
+            <div class="example">
+                <code>
+                    &lt;b&gt;This is bold &lt;/b&gt; &ensp;&ensp;<b>This is bold</b><br>
+                    &lt;i&gt;This is italic&lt;/i&gt; &ensp;&ensp;<i>This is italic</i><br>
+                    &lt;sub&gt;This is subscript&lt;/sub&gt;&ensp; This is &ensp;<sub>subscript</sub><br>
+                    &lt;sup&gt;This is supercript&lt;/sup&gt;  &ensp;This is &ensp; <sup>supercript</sup>
+                </code>
+            </div><br>
+         <h1 id="el">HTML Formatting Elements</h1><br>
+            <ul>
+                <li><code class="code">&lt;b&gt;</code>Bold text</li>
+                <li><code class="code">&lt;strong&gt;</code>Important text</li>
+                <li><code class="code">&lt;i&gt;</code>Italic text</li>
+                <li><code class="code">&lt;em&gt;</code>Emphasized text</li>
+                <li><code class="code">&lt;mark&gt;</code>Marked text</li>
+                <li><code class="code">&lt;small&gt;</code> Smaller text</li>
+                <li><code class="code">&lt;del&gt;</code>Deleted text</li>
+                <li><code class="code">&lt;ins&gt;</code>Inserted text</li>
+                <li><code class="code">&lt;sub&gt;</code>Subscript text</li>
+                <li><code class="code">&lt;sup&gt;</code>Superscript text</li>
+            </ul><br>
+        <h1 id="lin">HTML Links</h1><br>
+        <div>
+            <p>HTML links are defined with the<code class="code">&lt;a&gt;</code> tag: &ensp; <code class="code">&lt;a  <code>href="https://www.hhh.com"</code>&gt;</code>&ensp;This is a link<code class="code">&lt;/a&gt;</code></p>
+        </div><br>
+        <ul> 
+            <li type="none">The link's destination is specified in the <code class="code">href</code> attribute. </li>
+            <li type="none">Attributes are used to provide additional information about HTML elements.</li>
+            <li type="none">You will learn more about attributes in a later chapter.</li>
+        </ul><br>
+        <h1 id="im">HTML Images</h1><br>
+        <p>HTML images are defined with the<code class="code">&lt;img&gt;</code>tag.</p>
+        <p>The source file (<code>src</code>), alternative text (<code>alt</code>),<code>width</code>, and height are provided as attributes:</p>
+        <div class="short">
+            <code class="code">&lt;img</code>&ensp;<code >src="hh.jpg"</code>&ensp;<code>alt="hh.com"</code>&ensp;<code>width="104"</code>&ensp;<code>height="142"</code><code class="code">&gt;</code><br>
+        </div><br>
+        <h1 id="tb">HTML Tables</h1><br>
+        <p>HTML tables allow web developers to arrange data into rows and columns.</p><br>
+        <h2>Table Cells</h2><br>
+        <p>Each table cell is defined by a<code class="code">&lt;td&gt;</code>and a<code class="code">&lt;/td&gt;</code>tag.</p>
+        <p>Everything between<code class="code">&lt;td&gt;</code>and<code class="code">&lt;/td&gt;</code>are the content of the table cell.</p> <br>
+        <div class="example">
+            <code>
+                <code class="code">&lt;table&gt;</code><br>
+                    <code class="code">&lt;tr&gt;</code><br>
+                        <code class="code">&lt;td&gt;</code>first<code class="code">&lt;/td&gt;</code><br>
+                        <code class="code">&lt;td&gt;</code>second<code class="code">&lt;/td&gt;</code><br>
+                        <code class="code">&lt;td&gt;</code>third<code class="code">&lt;/td&gt;</code><br>
+                    <code class="code">&lt;/tr&gt;</code><br>
+                <code class="code">&lt;/table&gt;</code>
+            </code>
+        </div><br>
+        <h2>Table Rows</h2><br>
+        <p>Each table row starts with a<code class="code">&lt;tr&gt;</code> and ends with a<code class="code">&lt;/tr&gt;</code>tag.</p><br>
+        <div class="example">
+            <code>
+                <code class="code">&lt;table&gt;</code><br>
+                &ensp;<code class="code">&lt;tr&gt;</code><br>
+                &ensp;&ensp;&ensp;<code class="code">&lt;td&gt;</code>first<code class="code">&lt;/td&gt;</code><br>
+                &ensp;&ensp;&ensp;<code class="code">&lt;td&gt;</code>second<code class="code">&lt;/td&gt;</code><br>
+                &ensp;&ensp;&ensp;<code class="code">&lt;td&gt;</code>third<code class="code">&lt;/td&gt;</code><br>
+                &ensp;<code class="code">&lt;/tr&gt;</code><br>
+                &ensp;<code class="code">&lt;tr&gt;</code><br>
+                &ensp;&ensp;&ensp;<code class="code">&lt;td&gt;</code>first<code class="code">&lt;/td&gt;</code><br>
+                &ensp;&ensp;&ensp;<code class="code">&lt;td&gt;</code>second<code class="code">&lt;/td&gt;</code><br>
+                &ensp;&ensp;&ensp;<code class="code">&lt;td&gt;</code>third<code class="code">&lt;/td&gt;</code><br>
+                &ensp; <code class="code">&lt;/tr&gt;</code><br>
+                <code class="code">&lt;/table&gt;</code>
+            </code>
+        </div><br>
+        <h2>Table Headers</h2><br>
+        <p>Sometimes you want your cells to be table header cells. In those cases use the<code class="code">&lt;th&gt;</code>tag instead of the<code class="code">&lt;td&gt;</code>tag:</p><br>
+        <div class="example">
+        <code>    
+            <code class="code">&lt;table&gt;</code> <br>
+            &ensp;<code class="code">&lt;tr&gt;</code> <br>
+            &ensp;&ensp;&ensp;<code class="code">&lt;th&gt;</code><code class="code">&ensp;th</code> stands for table header
+            &ensp;&ensp;&ensp;<code class="code">&lt;/th&gt;</code><br>
+            &ensp;<code class="code">&lt;/tr&gt;</code><br>
+            <code class="code">&lt;/table&gt;</code>
+            <p>&ensp;By default, the text in&ensp;<code class="code">&lt;th&gt;</code>&ensp;elements are bold and centered, but you can change that with CSS.</p>
+            </code>
+        </div> <br>
+        <h1 id="lt">HTML Lists</h1><br>
+        <p>HTML lists allow web developers to group a set of related items in lists.</p><br>
+        <div class="example_li">
+            <code>
+                <div class="right_liste">
+                    <ol>
+                        <p>An ordered listes:</p>
+                        <li>first</li>
+                        <li>second</li>
+                        <li>third</li>
+                    </ol><br>
+                    <ul>
+                        <p>An unordered listes:</p>
+                        <li>first</li>
+                        <li>second</li>
+                        <li>third</li>    
+                    </ul>
+                </div><br>
+                <div class="left_liste">
+                    <ol type="I">
+                        <p>liste2</p>
+                        <li>first</li>
+                        <li>second</li>
+                        <li>third</li>
+                    </ol><br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                    <ul type="square">
+                        <p>liste2</p>
+                        <li>first</li>
+                        <li>second</li>
+                        <li>third</li>
+                    </ul>
+                </div>
+            </code>
+        </div><br>
+            <h1>Unordered HTML List</h1><br>
+            <p>An unordered list starts with the<code class="code">&lt;ul&gt;</code>tag. Each list item starts with the<code class="code">&lt;li&gt;</code>tag.</p><br>
+            <p>The list items will be marked with bullets (small black circles) by default:</p><br>
+        <div class="example"> 
+            <code>    
+            <code class="code">&lt;ul&gt;</code> <br>
+                &ensp;&ensp;<code class="code">&lt;li&gt;</code>Coffee<code class="code">&lt;/li&gt;</code> <br> 
+                &ensp;&ensp;<code class="code">&lt;li&gt;</code>milk<code class="code">&lt;/li&gt;</code> <br>
+                &ensp;&ensp;<code class="code">&lt;li&gt;</code>tea<code class="code">&lt;/li&gt;</code> <br>
+            <code class="code">&lt;/ul&gt;</code>
+            </code> 
+        </div><br>
+        <h1>Ordered HTML List</h1><br>
+        <p>An ordered list starts with the<code class="code">&lt;ol&gt;</code>tag. Each list item starts with the<code class="code">&lt;li&gt;</code>tag.</p><br>
+        <p>The list items will be marked with numbers by default:</p><br>
+        <div class="example"> 
+            <code>     
+            <code class="code">&lt;ol&gt;</code> <br>
+                &ensp;&ensp;<code class="code">&lt;li&gt;</code>Coffee<code class="code">&lt;/li&gt;</code> <br> 
+                &ensp;&ensp;<code class="code">&lt;li&gt;</code>milk<code class="code">&lt;/li&gt;</code> <br>
+                &ensp;&ensp;<code class="code">&lt;li&gt;</code>tea<code class="code">&lt;/li&gt;</code> <br>
+            <code class="code">&lt;/ol&gt;</code>
+            </code>
+        </div><br>
+        <h1>HTML Description Lists</h1><br>
+        <p>HTML also supports description lists.</p><br>
+        <p>A description list is a list of terms, with a description of each term.</p><br>
+        <p>The <code class="code">&lt;p&gt;</code>tag defines the description list, the <code class="code">&lt;p&gt;</code>tag defines the term (name), and the <code class="code">&lt;p&gt;</code>tag describes each term:</p><br>
+        <div class="example">
+            <code>
+            <code class="code">&lt;p&gt;</code> <br>
+                <code class="code">&lt;/p&gt;</code>Coffee<code class="code">&lt;/p&gt;</code><br>
+                <code class="code">&lt;p&gt;</code>black hot drink<code class="code">&lt;/p&gt;</code><br>
+                <code class="code">&lt;p&gt;</code>Milk<code class="code">&lt;/p&gt;</code><br>
+                <code class="code">&lt;p&gt;</code>white cold drink<code class="code">&lt;/p&gt;</code><br>
+                <code class="code">&lt;/p&gt;</code>
+            </code>
+        </div><br>
+        <h1 id="for">HTML Form Elements</h1><br>
+        <p>This chapter describes all the different HTML form elements.</p>
+        <p>The HTML<code class="code">&lt;form&gt;</code> element can contain one or more of the following form elements:</p><br>
+        <ul>
+            <li><code class="code">&lt;input&gt;</code></li>
+            <li><code class="code">&lt;label&gt;</code></li>
+            <li><code class="code">&lt;select&gt;</code></li>
+            <li><code class="code">&lt;textarea&gt;</code></li>
+            <li><code class="code">&lt;button&gt;</code></li>
+            <li><code class="code">&lt;fieldset&gt;</code></li>
+            <li><code class="code">&lt;legend&gt;</code></li>
+            <li><code class="code">&lt;datalist&gt;</code></li>
+            <li><code class="code">&lt;output&gt;</code></li>
+            <li><code class="code">&lt;option&gt;</code></li>
+            <li><code class="code">&lt;optgroup&gt;</code></li>
+        </ul><br>
+    </div>
+    </div>
+    <div class="continure">
+        <h1 id="qu">HTML Quotation</h1><br>
+        <p>In this chapter we will go through the <code class="code">&lt;blockquote&gt;</code>,<code class="code">&lt;q&gt;</code>,<code class="code">&lt;abbr&gt;</code>,<code class="code">&lt;adress&gt;</code>,<code class="code">&lt;cite&gt;</code>and <code class="code">&lt;bdo&gt;</code>HTML elements.</p><br>
+        <h1>HTML <code class="code">&lt;blockquote&gt;</code> for Quotations</h1> <br>
+        <ul type="none">
+            <li>The HTML <code class="code">&lt;blockquote&gt;</code>  element defines a section that is quoted from another source.</li>
+            <li>Browsers usually indent  <code class="code">&lt;blockquote&gt;</code>  elements.</li>
+        </ul><br>
+        <div class="example">
+            <code>
+                <pre>
+                    <ul type="none">
+                        <li><code class="code">&lt;p&gt;</code>Here is a quote from WWF's website:<code class="code">&lt;/p&gt;</code></li>
+                        <li><code class="code">&lt;blockquote</code> <span class="green">cite="http://www.source.com"</span><code class="code">&gt;</code>   </li>
+                        <li>For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization,<br>WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver<br>innovative solutions that protect communities, wildlife, and the places in which they live.</li>
+                        <li><code class="code">&lt;/blockquote&gt;</code></li>
+                    </ul>
+                </pre>
+            </code>
+        </div><br>
+        <div class="continure">
+            <h1 class="">HTML<code class="code">&lt;q&gt;</code>for Short Quotations</h1><br>
+            <ul type="none">
+                <li>The HTML<code class="code">&lt;q&gt;</code>tag defines a short quotation.</li>
+                <li>Browsers normally insert quotation marks around the quotation.</li>
+            </ul><br>
+            <div class="example">
+                <pre>
+                    <code>
+                        
+                        <code class="code">&lt;p&gt;</code> WWF's goal is to: <code class="code">&lt;q&gt;</code> Build a future where people live in harmony with nature. <code class="code">&lt;/q&gt;</code> <code class="code">&lt;/p&gt;</code>
+                    </code>
+                </pre>
+            </div><br>
+            <h1 id="abbr">HTML <code class="code">&lt;abbr&gt;</code> for Abbreviations</h1><br>
+            <ul type="none">
+                <li>The HTML <code class="code">&lt;abbr&gt;</code> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</li>
+                <li>Marking abbreviations can give useful information to browsers, translation systems and search-engines.</li>
+                <li><b>Tip:</b> Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. </li>
+            </ul><br>
+            <div class="example">
+                <pre>
+                    <code>
+                        
+                        <code class="code">&lt;p&gt;</code> The <code class="code">&lt;abbr <span class="green">title="World Health Organization"</span>&gt;</code> who <code class="code">&lt;/abbr&gt;</code> was founded in 1948. <code class="code">&lt;/p&gt;</code>
+                    </code>
+                </pre>
+            </div><br>
+            <h1 id="con">HTML <code class="code">&lt;address&gt;</code> for Contact Information</h1><br>
+            <ul type="none">
+                <li>The HTML <code class="code">&lt;address&gt;</code> tag defines the contact information for the author/owner of a document or an article.</li>
+                <li>The contact information can be an email address, URL, physical address, phone number, social media handle, etc.</li>
+                <li>The text in the <code class="code">&lt;address&gt;</code> element usually renders in italic, and browsers will always add a line break before and after the <code class="code">&lt;address&gt;</code> element.</li>
+            </ul><br>
+            <div class="example">
+                <pre>
+                    <code>
+            <code class="code">&lt;address&gt;</code><br>
+                Written by John Doe. <code class="code">&lt;br&gt;</code>
+                Visit us at:<code class="code">&lt;br&gt;</code>
+                Example.com<code class="code">&lt;br&gt;</code>
+                Box 564, Disneyland<code class="code">&lt;br&gt;</code>
+                USA <br>
+            <code class="code">&lt;/address&gt;</code>
+                    </code>
+                </pre>
+            </div><br>
+            <h1>HTML <code class="code">&lt;cite&gt;</code> for Work Title</h1> <br>
+            <ul type="none">
+                <li>The HTML <code class="code">&lt;cite&gt;</code> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).</li>
+                <li><b>Note:</b> A person's name is not the title of a work.</li>
+                <li>The text in the <code class="code">&lt;cite&gt;</code> element usually renders in <i>italic</i>.</li>
+            </ul><br>
+            <div class="example">
+                <pre>
+                    <code>
+                        <code class="code">&lt;p&gt;</code> <code class="code">&lt;cite&gt;</code> The Scream <code class="code">&lt;/cite&gt;</code> by Edvard Munch. Painted in 1893. <code class="code">&lt;/p&gt;</code>  
+                    </code>
+                </pre>
+            </div><br>
+            <h1>HTML <code class="code">&lt;bdo&gt;</code> for Bi-Directional Override</h1><br>
+            <ul type="none">
+                <li>BDO stands for Bi-Directional Override.</li>
+                <li>The HTML <code class="code">&lt;bdo&gt;</code> tag is used to override the current text direction:</li>
+            </ul><br>
+            <div class="example">
+                <pre>
+                    <code>
+
+                        <code class="code">&lt;bdo</code> <span class="green">dir="rtl"</span><code class="code">&gt;</code> This text will be written from right to left <code class="code">&lt;/bdo&gt;</code>
+                    </code>
+                </pre>
+            </div><br>
+            <h1 id="com">HTML Comments</h1><br>
+            <code><b>&ensp;!! </b>HTML comments are not displayed in the browser, but they can help document your HTML source code.</code><br><br>
+            <h1>HTML Comment Tag</h1><br>
+            <p>You can add comments to your HTML source by using the following syntax:</p><br>
+            <div class="example">
+                <pre>
+                    <code>
+                        <code class="code"><span class="green">&lt;!-- Write your comments here --&gt;</span></code>
+                    </code>
+                </pre>
+            </div><br>
+            <h1 id="css">HTML Styles - CSS</h1><br>
+            <ul type="none">
+                <li>CSS stands for Cascading Style Sheets.</li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once.</li>
+            </ul><br>
+            <h1>Using CSS</h1><br>
+            <p>CSS can be added to HTML documents in 3 ways:</p><br>
+            <ul>
+                <li><b>Inline</b>- by using the <code class="code">style</code> attribute inside HTML elements</li>
+                <li><b>Internal</b>- by using a <code class="code">&lt;style&gt;</code> element in the <code class="code">&lt;head&gt;</code> section </li>
+                <li><b>External</b>- by using a <code class="code">&lt;link&gt;</code> element to link to an external CSS file</li>
+            </ul><br>
+            <p>The most common way to add CSS, is to keep the styles in external CSS files. However, in this tutorial we will use inline and internal styles, because this is easier to demonstrate, and easier for you to try it yourself.</p><br>
+            <h1>Inline CSS</h1><br>
+            <ul>
+                <li>An inline CSS is used to apply a unique style to a single HTML element.</li>
+                <li>An inline CSS uses the <code class="code">style</code> attribute of an HTML element.</li>
+                <li>The following example sets the text color of the <code class="code">&lt;h1&gt;</code> element to blue, and the text color of the <code class="code">&lt;p&gt;</code> element to red:</li>
+            </ul><br>
+            <div class="example">
+                <pre>
+                    <code>
+                        <code class="code">&lt;h1</code> <span class="green">style="color:blue;"</span><code class="code">&gt; </code>A Blue Heading <code class="code"> &lt;/h1&gt;</code>
+
+                        <code class="code">&lt;p</code> <span class="green"> style="color:red;"</span><code class="code">&gt;</code> A red paragraph. <code class="code">&lt;/p&gt;</code>
+                    </code>
+                </pre>
+            </div><br>
+            <h1>Internal CSS</h1><br>
+            <ul type="none">
+                <li>An internal CSS is used to define a style for a single HTML page.</li>
+                <li>An internal CSS is defined in the <code class="code">&lt;head&gt;</head></code> section of an HTML page, within a <code class="code">&lt;style&gt;</head></code> element.</li>
+                <li>The following example sets the text color of ALL the <code class="code">&lt;h1&gt;</head></code> elements (on that page) to blue, and the text color of ALL the <code class="code">&lt;p&gt;</head></code> elements to red. In addition, the page will be displayed with a "powderblue" background color: </li>
+            </ul><br>
+            <div class="example">
+                <pre>
+                    <code class="code">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+                            &lt;style&gt;
+                                <span class="plus">body</span> <span class="nor">{</span><span class="green"> background-color: powderblue; </span><span class="nor">}</span>
+                                <span class="plus">h1</span>   <span class="nor">{</span><span class="green"> color: blue; </span><span class="nor">}</span>
+                                <span class="plus">p</span>    <span class="nor">{</span><span class="green"> color: red; </span><span class="nor">}</span>
+                            &lt;/style&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+
+                            &lt;h1&gt;This is a heading&lt;/h1&gt;
+                            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                </pre>
+            </div><br>
+            <h1>External CSS</h1><br>
+            <ul type="none">
+                <li>An external style sheet is used to define the style for many HTML pages.</li>
+                <li>To use an external style sheet, add a link to it in the <code class="code">&lt;head&gt;</code> section of each HTML page:</li>
+            </ul><br>
+            <div class="example">
+                <pre>
+                    <code class="code">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+                            <span class="plus">&lt;link</span> <span class="green"><span class="nor">rel</span>="stylesheet" <span class="nor">href</span>="styles.css"</span><span class="plus">&gt;</span>
+                        &lt;/head&gt;
+                        &lt;body&gt;
+
+                            &lt;h1&gt;This is a heading&lt;/h1&gt;
+                            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                </pre>
+            </div><br>
+            <h1 id="bl">HTML Block and Inline Elements</h1><br>
+                <ul type="none">
+                    <li>Every HTML element has a default display value, depending on what type of element it is.</li>
+                    <li>The two most common display values are block and inline.</li>
+                </ul><br>
+            <h1>Block-level Elements</h1><br>
+                <ul type="none">
+                    <li>A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.</li>
+                    <li>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</li>
+                    <li>Two commonly used block elements are: <code class="code">&lt;p&gt;</code> and <code class="code">&lt;div&gt;</code>.</li>
+                    <li>The <code class="code">&lt;p&gt;</code> element defines a paragraph in an HTML document.</li>
+                    <li>The <code class="code">&lt;div&gt;</code> element defines a division or a section in an HTML document.</li>
+                </ul><br>
+                <div class="example">
+                    <pre>
+                        <code>
+                            <code class="code">&lt;p&gt;</code> Hello World <code class="code">&lt;/p&gt;</code>
+
+                            <code class="code">&lt;div&gt;</code> Hello World <code class="code">&lt;/div&gt;</code>
+                        </code>
+                    </pre>
+                </div><br>
+                <code>Here are the block-level elements in HTML:</code><br><br>
+                <code>
+                    <table> 
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td>&lt;div&gt;</td>
+                            <td>&lt;ul&gt;</td>
+                            <td>&lt;hr&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;section&gt;</td>
+                            <td>&lt;li&gt;</td>
+                            <td>&lt;table&gt;</td>
+                            <td>&lt;fieldset&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;form&gt;</td>
+                            <td>&lt;tfoot&gt;</td>
+                            <td>&lt;nav&gt;</td>
+                            <td>&lt;footer&gt;</td>
+                        </tr>
+                    </table>
+                </code><br>
+                <h1>Inline Elements</h1><br>
+                <ul type="none">
+                    <li>An inline element does not start on a new line.</li>
+                    <li>An inline element only takes up as much width as necessary.</li>
+                </ul><br>
+                <div class="example">
+                    <pre>
+                        <code>
+                            <code class="code">&lt;span&gt;</code> Hello World <code class="code">&lt;/span&gt;</code>
+                        </code>
+                    </pre>
+                </div><br>
+                <code>
+                    <p>Here are the inline elements in HTML:</p> <br>
+                    <table> 
+                        <tr>
+                            <td>&lt;a&gt;</td>
+                            <td>&lt;abbr&gt;</td>
+                            <td>&lt;code&gt;</td>
+                            <td>&lt;map&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;span&gt;</td>
+                            <td>&lt;label&gt;</td>
+                            <td>&lt;input&gt;</td>
+                            <td>&lt;img&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;br&gt;</td>
+                            <td>&lt;b&gt;</td>
+                            <td>&lt;i&gt;</td>
+                            <td>&lt;nav&gt;</td>
+                        </tr>
+                    </table>
+                </code><br>
+                <h1 id="div">The <code class="code">&lt;div&gt;</code> Element</h1><br>
+                <ul type="none">
+                    <li>The <code class="code">&lt;div&gt;</code> element is often used as a container for other HTML elements.</li>
+                    <li>The <code class="code">&lt;div&gt;</code> elementhas no required attributes, but <code class="code">style</code>, <code class="code">class</code> and <code class="code">id</code> are common.</li>
+                    <li>When used together with CSS, the <code class="code">&lt;div&gt;</code> element can be used to style blocks of content:</li>
+                </ul><br>
+                <div class="example">
+                    <pre>
+                        <code class="code">
+        &lt;div <span class="nor">style</span>=<span class="green">"background-color:black;</span> <span class="nor">color</span><span class="green">:white;</span> <span class="nor">padding</span><span class="green">:20px;"</span>&gt;
+        
+        &lt;h2&gt;<span class="nor"> London </span>&lt;/h2&gt; 
+        &lt;p&gt;<span class="nor"> London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over
+             13 million inhabitants.</span>&lt;/p&gt; 
+        
+        &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div><br>
+                
+                    <h1>HTML Div Element</h1><br>
+                    <p>The <code class="code">&lt;div&gt;</code> element is used as a container for other HTML elements.</p><br>
+                    <h1>The <code class="code">&lt;div&gt;</code> Element</h1><br>
+                    <p>The <code class="code">&lt;div&gt;</code> element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after.</p><br>
+                    <div class="example">
+                        <p>A <code class="code">&lt;div&gt;</code> element takes up all available width:</p><br>
+                        <code>
+                            Lorem Ipsum <code class="code">&lt;div&gt;</code> I am a div <code class="code">&lt;/div&gt;</code> dolor sit amet.
+                        </code>
+                    </div><br>
+                    <div class="resulte">
+                        <h1>resulte</h1>
+                        <code>
+                              &ensp;Lorem Ipsum <div>I am a div</div> &ensp;&ensp;dolor sit amet.
+                        </code>
+                    </div><br>
+                    <p>The <code class="code">&lt;div&gt;</code> element has no required attributes, but <code class="code">style</code>, <code class="code">class</code> and <code class="code">id</code> are common.</p><br>
+                    <h1> <code class="code">&lt;div&gt;</code> as a container</h1><br>
+                    <p>The <code class="code">&lt;div&gt;</code> element is often used to group sections of a web page together.</p><br>
+                    <div class="example">
+                        <p>A <code class="code">&lt;div&gt;</code> element with HTML elements:</p>
+                        <code><br>
+                            <code class="code">&lt;div&gt;</code><br>
+                            &ensp;<code class="code">&lt;h2&gt;</code>London<code class="code">&lt;/h2&gt;</code><br>
+                            &ensp;&ensp;&ensp;<code class="code">&lt;p&gt;</code>London is the capital city of England.<code class="code">&lt;/p&gt;</code><br>
+                            &ensp;&ensp;&ensp;<code class="code">&lt;p&gt;</code>London has over 13 million inhabitants.<code class="code">&lt;/p&gt;</code><br>
+                            <code class="code">&lt;/div&gt;</code>
+                        </code>
+                    </div><br>
+                    <div class="resulte">
+                        <div>
+                            <h2>London</h2>
+                            <p>London is the capital city of England.</p>
+                            <p>London has over 13 million inhabitants.</p>
+                          </div>
+                    </div><br>
+                    <h1>Center align a <code class="code">&lt;div&gt;</code> element</h1><br>
+                    <p>If you have a <code class="code">&lt;div&gt;</code> element that is not 100% wide, and you want to center-align it, set the CSS <code class="code">margin</code> property to <code class="code">auto</code>.</p><br>
+                    <div class="example">
+                        <code>
+                            &ensp;<code class="code">&lt;style&gt;</code><br>
+                            &ensp;&ensp;&ensp;    div {<br>
+                                &ensp;&ensp; &ensp; &ensp;      width:300px;<br>
+                                &ensp;&ensp; &ensp; &ensp;  margin:auto;<br>
+                                &ensp; &ensp;&ensp; &ensp;  } <br>
+                                &ensp;<code class="code">&lt;/style&gt;</code>
+                        </code>
+                    </div><br>
+                    <h1 id="span">The <code class="code">&lt;span&gt;</code> Element</h1><br>
+                    <ul type="none">
+                        <li>The <code class="code">&lt;span&gt;</code> element is an inline container used to mark up a part of a text, or a part of a document.</li>
+                        <li>The <code class="code">&lt;span&gt;</code> element has no required attributes, but <code class="code">&lt;style&gt;</code><span>,</span><code class="code">&lt;class&gt;</code> and <code class="code">&lt;id&gt;</code> are common.</li>
+                        <li>When used together with CSS, the <code class="code">&lt;span&gt;</code> element can be used to style parts of the text:</li>
+                    </ul><br>
+                    <div class="example">
+                            <code>
+                                <code class="code">&lt;p&gt;</code> My mother has <code class="code">&lt;span </code><span class="plus">style</span>=<span class="green">"color:blue; font-weight:bold;"</span><code class="code">&gt;</code> blue <code class="code">&lt;/span&gt;</code> eyes and my father has <code class="code">&lt;span </code><span class="plus">style</span><span class="green">"color:darkolivegreen; font-weight:bold;"</span><code class="code">&gt;</code> dark green <code class="code">&lt;/span&gt;</code> eyes. <code class="code">&lt;/p&gt;</code>
+                            </code>
+                    </div><br>
+                    <br>
+                    <h1 id="class">HTML class Attribute</h1><br>
+                        <p>The HTML <code class="code">class</code> attribute is used to specify a class for an HTML element.</p><br>
+                        <p>Multiple HTML elements can share the same class.</p><br>
+                    <h1>Using The class Attribute</h1><br>
+                    <p>The <code class="code">class</code> attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</p><br>
+                    <p>In the following example we have three <code class="code">&lt;div&gt;</code> elements with a <code class="code">class</code> attribute with the value of "city". All of the three <code class="code">&lt;div&gt;</code> elements will be styled equally according to the <code class="code">.city</code> style definition in the head section:</p>
+        </div>
+    </div><br>
+    <div class="hh">
+            <div class="non"></div>
+            <div class="oui">
+                <a href="#header"><button>Up</button></a>
+            </div>
+    </div><br><br>
+    <div class="footer" id="footer">
+		<div class="title">
+			<span>Dev academy</span><br><br>
+			<a href="#"><i class="fab fa-facebook">	</i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-whatsapp">	</i></a>
+			<a href="#"><i class="fab fa-linkedin">	</i></a>
+		</div>
+		<div class="block"><br><br>
+			<span class="copy">Copyright &COPY; 2023 All rights reserved Dev academy</span>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+*{
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    transition:200ms;
+}
+.header #test:hover,.select span:hover{
+    color:#fff;
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    background-color:rgb(179, 168, 168);
+    position:fixed;
+    align-items:center;
+    padding:18px; 
+    margin:0;
+    left:0;
+    right:0;
+}
+.header a{
+    font-size:23px;
+}
+.header .span{
+    font-size:55px;
+    color:#fff;
+}
+.header h1{
+    color:#fff;
+}
+.header code span{
+    font-weight:bold;
+}
+.log{
+    background-color:whitesmoke;
+    border-radius:15px;
+    width:80px;
+    height:50px;
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(142, 135, 135);
+    border:1px solid rgb(142, 135, 135);
+    cursor:pointer;
+}
+.Courses:hover .list{
+    opacity:1;
+    visibility:visible;
+}
+.select{
+    border-radius:4px;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:1.6rem;
+    cursor:pointer;
+    color: #000;
+}
+.link{
+    font-weight:bold;
+}
+.list{
+    margin-left:-13px;
+    text-align:center;
+    line-height:30px;
+    background-color:#fff;
+    border-radius:4px;
+    position:absolute;
+    opacity:0;
+    visibility:hidden;
+    transition:250ms;
+    border:2px solid #000;
+}
+.list ul li a{
+    margin-right:33px;
+    font-weight: bold;
+    font-size:18px;
+}
+.list li:hover {
+    cursor: pointer;
+}
+.list .htmll:hover{
+    color:red;
+}
+.list .csss:hover{
+    color:blue;
+}
+.list .jss:hover{
+    color:#e3e313;
+}
+.span{
+    text-indent:13px;
+    font-family:Verdana;
+}
+.profile span{
+    line-height:32px;
+    font-weight:bold;
+}
+.img{
+    background-image:url(img/bird.jpg);
+    background-size:cover;
+    border-radius:50%;
+    width:80px;
+    height:80px;
+}
+fieldset{
+    border:2px solid #000;
+    border-radius:15px;
+    margin:19px;
+}
+.continure{
+    margin:9px;
+    margin-bottom:50px;
+}
+.continure p{
+    text-align:justify;
+    margin:11px 30px;
+    font-size:19px;
+}
+.continure p span{
+    font-size:38px;
+}
+.continure h2{
+    padding:0 25px;
+}
+h1{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+}
+.key{
+    font-weight:bold;
+}
+ul{
+    line-height:30px;
+    font-size:18px;
+}
+.hi{
+    color:rgb(179, 168, 168);
+    text-align: left;
+    margin-left:27px;
+}
+.html{
+    background:rgb(255,0,0);
+    font-weight:bold;
+    width:30%;
+    height:50px;
+    text-align:center;
+    padding:5px;
+    margin:auto;
+    border-radius:15px;
+}
+.html a span{
+    font-size:19px;
+    color:#fff;
+    align-items:center;
+}
+.css{
+    background:rgb(50,0,200);
+    font-weight:bold;
+    width:30%;
+    height:50px;
+    text-align:center;
+    margin:auto;
+    border-radius:15px;
+    padding:5px;
+}
+.css a{
+    color:#fff;
+    font-size:19px;
+}
+.js{
+    background:rgb(233, 233, 73);
+    font-weight:bold;
+    width:30%;
+    height:50px;
+    text-align:center;
+    margin:auto;
+    border-radius:15px;
+    padding:5px;
+}
+.js a{
+    color:#000;
+    font-size:19px;
+}
+h1{
+    color:rgb(142, 135, 135);
+}
+
+.footer{
+    
+    background-color:rgb(179, 168, 168);
+    display:flex;
+    justify-content: space-between;
+    height:28vh;
+    width:100%;
+}
+.footer .block{
+    margin-right:33px;
+}
+.fa-whatsapp{
+    color:green;
+}
+.fa-instagram{
+    color:purple;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-linkedin{
+    color:darkblue;
+}
+.fab{
+    font-size:26px;
+    margin: 10px;
+}
+.footer .title span{
+    color:#fff;
+    font-size:44px;
+    font-weight:bold;
+    font-family:Verdana;
+}
+.footer .title{
+    margin:30px 0 0 30px;
+}
+.footer span{
+    font-size:32px;
+    font-weight:bold;   
+}
+.block .copy{
+    font-size:14px;
+    font-weight:bold;
+    bottom:0;
+}

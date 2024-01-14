@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600:700;800;900&display=swap");
+*{
+    box-sizing: border-box;
+    font-family:Verdana;
+    overflow: hidden;
+}
+body{
+    align-items: center;
+    background-color:rgb(179, 168, 168);
+}
+
+.cont{
+    margin:auto;
+    width:420px;
+    background:transparent;
+    border:2px solid rgba(255,255,255, .2 );
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    border-radius:10px;
+    padding:30px 40px;
+}
+
+.cont h1{
+    color: #fff;
+    font-size:36px;
+    text-align:center;
+}
+span{
+    text-align:center;
+    font-size:33px;
+    font-weight:bold;
+    color:#fff;
+    margin-right:18px;
+}
+.cont .input{
+    position: relative;
+    width:100%;
+    height: 50px;
+    margin:30px 0;
+}
+.input input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    border:2px solid rgba(255,255,255,.2);
+    border-radius:40px;
+    font-size:16px;
+    color:#fff;
+    padding:20px 45px 20px 20px ;
+}
+.input input::placeholder{
+    color:#fff;
+}
+.cont .btn{
+    width:100%;
+    height: 45px;
+    background:#fff;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+}
+.cont .btn {
+    text-decoration:none;
+    color:#333;
+}

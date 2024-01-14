@@ -1,0 +1,263 @@
+*{
+    margin:0;
+}
+.cont_css{
+    margin:0 25px;
+}
+.title{
+    font-size:53px;
+    font-weight:bold;
+    color:#1b47e4 ;
+    background-color:transparent;
+    margin:0 540px;
+    border-bottom:4px #1b47e4 solid ;
+}
+.header_css{
+    position:fixed;
+    background-color:#1b47e4;
+    margin:0;
+    padding:18px; 
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    left:0;
+    right:0;
+}
+.header_css code{
+    font-size:30px;
+}
+.header_css h1,.copy{
+    color:#fff;
+}
+.header_css a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    font-size:24px;
+}
+.header_css a:hover{
+    color:#000;
+}
+#ja:hover{
+    color: #000;
+}
+.h_css{
+    color:blue;
+    font-family:'Ubuntu',sans-serif;
+}
+.tutorial{
+    background-color:#FFF4A3;
+    left:0;
+    right:0;
+    height:80px;
+    font-size:25px;
+    font-weight:bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    align-items:center;
+    text-align:center;
+    padding-top:40px; 
+}
+.tutorial a{
+    text-decoration:none;
+    color:red;
+}
+ul li,dl,p{
+    font-family: 'Ubuntu', sans-serif;
+}
+.syntax{
+    display:flex;
+    justify-content:stretch;
+    width:800px;
+    height:110px;
+    background-color:#fff;
+    text-align:center;
+    font-size:25px;
+    margin-left:450px;  
+}
+.h1{
+    background-color:#FFF4A3;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    font-weight:bold;
+}
+.dec{
+    border-radius:15px;
+    background-color:#FFF4A3;
+    width:440px;
+    height:90px;
+    font-weight:bold;
+}
+.dec abbr,.h1 abbr{
+    text-decoration:none;
+}
+.example_css{
+    background-color:gainsboro;
+    margin:0 -22px;
+}
+.example_css p code{
+    font-size:18px;
+    color:red;
+    height:100px;
+}
+.bg_ex {
+    width:1400px;
+    height:130px;
+}
+pre{
+    font-size:16px;
+    width:400px;
+}
+.code_css{
+    color: #264cd5;
+}
+.declaration{
+    color:red;
+}
+.proprety{
+    color:blueviolet;
+}
+.value{
+    color:green;
+}
+.white{
+    color:#fff;
+}
+.example_css h2{
+    color: #264cd5;
+    text-align:center;
+    font-size:40px;
+}
+code{
+    font-size:19px;
+}
+.example_css .comment{
+    color:gray;
+}
+footer{
+    background-color:gainsboro;
+    padding:0 0 15px 55px;
+    display:flex;
+    line-height:25px;
+}
+hr{
+    width:3px;
+    background-color:transparent;
+}
+.right a{
+    text-decoration:none;
+    color:#000;
+    font-size:30px;
+    font-weight:bold;
+    margin:auto;
+}
+footer a{
+    text-decoration:none;
+    color:#000 ;
+}
+button{
+    background-color:#264cd5;
+    border-radius:15px;
+    height:43px;
+    width:38px;
+    font-weight:bold;
+    color:#fff ;
+    cursor:pointer;
+}
+.hh{
+    display:flex;
+    justify-content:space-around;
+}
+.img{
+    background-image:url(../img/user.png);
+    background-size:cover;
+    border-radius:50%;
+    width:90px;
+    height:90px;
+}
+.profile span{
+    color:#fff;
+}
+i{
+    color: #fff;
+}
+.link{
+    color:#fff;
+    font-weight:bold;
+}
+.select{
+    border-radius:4px;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:1.6rem;
+    cursor:pointer;
+}
+.list{
+    margin-left:-13px;
+    text-align:center;
+    line-height:30px;
+    background-color:#fff;
+    border-radius:4px;
+    position:absolute;
+    opacity:0;
+    visibility:hidden;
+    transition:250ms;
+    border:2px solid #000;
+}
+.list ul li a{
+    margin-right:33px;
+    font-weight: bold;
+    font-size:18px;
+    color:black;
+}
+.Courses:hover .list{
+    opacity:1;
+    visibility:visible;
+}
+.list li:hover {
+    cursor: pointer;
+}
+.list .htmll:hover{
+    color:red;
+}
+.list .csss:hover{
+    color:blue;
+}
+.list .jss:hover{
+    color:#e3e313;
+}
+.footer{
+    background-color:#264cd5;
+    display:flex;
+    justify-content: space-between;
+    height:28vh;
+    width:100%;
+    margin:0;
+}
+.footer .block{
+    margin-right:33px;
+}
+.fab{
+    font-size:26px;
+    margin: 10px;
+}
+.footer .title span{
+    color:#fff;
+    font-size:44px;
+    font-weight:bold;
+    font-family:Verdana;
+}
+.footer .title{
+    margin:30px 0 0 30px;
+}
+.footer span{
+    font-size:32px;
+    font-weight:bold;   
+}
+.block .copy{
+    font-size:14px;
+    font-weight:bold;
+    bottom:0;
+}

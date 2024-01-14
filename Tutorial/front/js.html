@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Java Script</title>
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html">Acceuil</a>
+        <div class="Courses">
+			<div class="select">
+				<span class="link">Courses</span>&ensp;
+				<i class="fa fa-caret-down icon"></i>
+			</div>
+			<div class="list">
+				<ul type="none">
+					<li><a href="html.html" class="htmll">HTML</a></li>
+					<li><a href="css.html" class="csss">CSS</a></li>
+					<li><a href="js.html" class="jss">Js</a></li>
+				</ul>
+			</div>
+		</div>
+        <code><h1>Js course</h1></code>
+        <a href="../log/log.html">Login</a>
+        <div class="profile">
+			<a href=""><div class="img"></div>
+			<span>username</span></a>
+		</div>
+    </div>
+    <div id="header"></div>
+    <br><br><br><br><br><br><br><br><br>
+    <h1 class="Tutorial">Js Tutorial</h1><br><br>
+    <div class="cont">
+        <h1>Why Study JavaScript?</h1><br><br>
+        <p class="title">JavaScript is one of the 3 languages all web developers must learn:</p><br>
+        <ol>
+            <li>HTML to define the content of web pages</li><br>
+            <li>CSS to specify the layout of web pages</li><br>
+            <li>JavaScript to program the behavior of web pages</li>
+        </ol><br><br>
+        <p class="title">This tutorial covers every version of JavaScript:</p><br>
+        <ul>
+            <li>The Original JavaScript ES1 ES2 ES3 (1997-1999)</li><br>
+            <li>The First Main Revision ES5 (2009)</li><br>
+            <li>The Second Revision ES6 (2015)</li><br>
+            <li>All Yearly Additions (2016, 2017, 2018, 2019, 2020)</li><br>
+        </ul><br>
+        <h1>Commonly Asked Questions</h1><br>
+        <ul>
+            <li>How do I get JavaScript?</li><br>
+            <li>Where can I download JavaScript?</li><br>
+            <li>Is JavaScript Free?</li>
+        </ul><br>
+        <ul type="circle">
+            <li><p><b>You don't have to get or download JavaScript.</b></p></li><br>
+            <li><p><b>JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone.</b></p></li><br>
+            <li><p><b>JavaScript is free to use for everyone.</b></p></li><br>
+        </ul><br><br>
+        <h1 class="intro">JavaScript Introduction</h1><br><br><br><br>
+        <h2>JavaScript Can Change HTML Content</h2><br><br>
+        <ul>
+            <li><p>One of many JavaScript HTML methods is <code>getElementById()</code>.</p></li><br>
+            <li>The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript":</li>
+        </ul><br><br>
+        <h2 class="ex">Example:</h2>
+    </div><br>
+    <div class="example">
+        <br><code>&ensp;&ensp;&ensp;&ensp;&ensp;document.getElementById("demo").innerHTML = "Hello JavaScript";</code>
+    </div><br><br>  
+    <div class="cont">
+        <h1>JavaScript Can Change HTML Styles (CSS)</h1><br><br>
+        <p>Changing the style of an HTML element, is a variant of changing an HTML attribute:</p>
+    </div><br>
+    <div class="example">
+        <br><code>&ensp;&ensp;&ensp;&ensp;&ensp;document.getElementById("demo").style.fontSize = "35px";</code>
+    </div><br><br>
+    <div class="cont">
+        <h1>JavaScript Can Hide HTML Elements</h1><br><br>
+        <p>Hiding HTML elements can be done by changing the display style:</p>
+    </div><br>
+    <div class="example">
+        <br><code>&ensp;&ensp;&ensp;&ensp;&ensp;document.getElementById("demo").style.display = "none";</code>
+    </div><br><br>
+    <div class="cont">
+        <h1>JavaScript Can Show HTML Elements</h1><br><br>
+        <p>Showing hidden HTML elements can also be done by changing the display style:</p>
+    </div><br>
+    <div class="example">
+        <br><code>&ensp;&ensp;&ensp;&ensp;&ensp;document.getElementById("demo").style.display = "block";</code>
+    </div><br><br>
+    <div class="cont">
+        <h1 class="intro">JavaScript Where To</h1><br><br>
+        <h1>The <code>&lt;script&gt;</code>Tag</h1><br><br>
+        <p>In HTML, JavaScript code is inserted between <code>&lt;script&gt;</code> and <code>&lt;/script&gt;</code> tags.</p>
+    </div><br><br>
+    <div class="example">
+        <pre>
+            <code>&lt;script&gt;</code>
+                    <code>document.getElementById("demo").innerHTML = "My First JavaScript";</code>    
+            <code>&lt;/script&gt;</code>
+        </pre>
+    </div><br><br>
+    <div class="warning">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <b>!!</b>Old JavaScript examples may use a type attribute:<code>&lt;script type="text/javascript"&gt;</code>. <br><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        The type attribute is not required. JavaScript is the default scripting language in HTML.
+    </div><br><br><br>
+    <div class="cont">
+        <h1>JavaScript Functions and Events</h1><br><br>
+        <p type="none">A JavaScript <code>function</code> is a block of JavaScript code, that can be executed when "called" for.</p><br>
+        <p>For example, a function can be called when an event occurs, like when the user clicks a button.</p><br>
+        <p class="warning">&ensp;&ensp;&ensp;&ensp;&ensp;<b>!!</b>You will learn much more about functions and events in later chapters.</p> 
+    </div><br><br><br>
+    <div class="cont">
+        <h1>JavaScript in <code>&lt;head&gt;</code>or<code>&lt;body&gt;</code> </h1><br><br>
+            <p>You can place any number of scripts in an HTML document.</p><br>
+            <p>Scripts can be placed in the<code>&lt;body&gt;</code>, or in the<code>&lt;head&gt;</code>section of an HTML page, or in both.</p><br><br>
+        <h1>JavaScript in <code>&lt;head&gt;</code></h1><br>
+        <p>In this example, a JavaScript <code>function</code> is placed in the<code>&lt;head&gt;</code>section of an HTML page.</p><br>
+        <p>The function is invoked (called) when a button is clicked:</p><br>
+    </div>
+    <div class="example_2">
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt; 
+                &lt;head&gt;
+                    &lt;script&gt;
+                        function myFunction() {
+                         document.getElementById("demo").innerHTML = "Paragraph changed.";
+                     }
+                    &lt;/script&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h2>Demo JavaScript in Head&lt;/h2&gt;
+                
+                    &lt;p id="demo">A Paragraph&lt;/p&gt;
+                    &lt;button type="button" onclick="myFunction()">Try it&lt;/button &gt;
+
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+    </div><br><br>
+    <div class="cont">
+        <h1>JavaScript in <code>&lt;body&gt;</code></h1><br>
+        <p>In this example, a JavaScript function is placed in the<code>&lt;body&gt;</code>section of an HTML page.</p><br>
+        <p>The function is invoked (called) when a button is clicked:</p><br>
+    </div><br>
+    <div class="example_3">
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt; 
+                &lt;body&gt;
+                    
+                    &lt;h2>Demo JavaScript in Body&lt;/h2&gt;
+                
+                    &lt;p id="demo">A Paragraph&lt;/p&gt;
+                    
+                    &lt;button type="button" onclick="myFunction()">Try it&lt;/button &gt;
+
+                    &lt;script&gt;
+                        function myFunction() {
+                         document.getElementById("demo").innerHTML = "Paragraph changed.";
+                     }
+                    &lt;/script&gt;
+
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+    </div><br>
+    <div class="cont">
+        <p class="warning"><b>!!</b>Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.</p><br><br>
+        <h1>External JavaScript</h1><br><br>
+        <p>Scripts can also be placed in external files:</p><br>
+    </div>
+    <div class="example_1"><br>
+        <h3>External file: myScript.js</h3>
+        <pre>
+            <code>
+                function myFunction() {
+                    document.getElementById("demo").innerHTML = "Paragraph changed.";
+                }
+            </code>
+        </pre>
+    </div><br><br>
+    <div class="cont">
+        <p>External scripts are practical when the same code is used in many different web pages.</p><br>
+        <p>JavaScript files have the file extension .js.</p><br>
+        <p>To use an external script, put the name of the script file in the src (source) attribute of a <code>&lt;script&gt;</code> tag:</p>  <br>   
+    </div><br>
+    <div class="example"><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <code>&lt;script src="myScript.js"&gt;&lt;/script&gt;</code>
+    </div><br><br>
+    <div class="cont">
+        <p>You can place an external script reference in <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> as you like.</p><br>
+        <p>The script will behave as if it was located exactly where the <code>&lt;script&gt;</code> tag is located.</p><br>
+        <p class="warning"><b>!!</b>External scripts cannot contain<code>&lt;script&gt;</code>tags.</p><br><br><br>
+        <h1>External JavaScript Advantages</h1><br><br>
+        <p>Placing scripts in external files has some advantages:</p><br>
+        <ul>
+            <li>It separates HTML and code</li><br>
+            <li>It makes HTML and JavaScript easier to read and maintain</li><br>
+            <li>Cached JavaScript files can speed up page loads</li><br>
+        </ul>
+        <p>To add several script files to one page  - use several script tags:</p><br>
+    </div>
+    <div class="example_1"><br>
+        <h3>Example</h3>
+        <pre>
+            <code>
+                &lt;script src="myScript1.js"&gt;&lt;/script&gt;
+                &lt;script src="myScript2.js"&gt;&lt;/script&gt;
+            </code>
+        </pre>
+    </div><br><br>
+    <div class="cont">
+        <h1>External References</h1><br>
+        <p>An external script can be referenced in 3 different ways:</p><br>
+        <ul>
+            <li>With a full URL (a full web address)</li><br>
+            <li>With a file path (like /js/)</li><br>
+            <li>Without any path</li><br>
+        </ul><br><br>
+        <p>This example uses a full URL to link to myScript.js:</p>
+    </div><br>
+    <div class="example_1"><br>
+        <h3>Example</h3>
+        <pre>
+            <code>
+                &lt;script src="https://link.com/js/myScript.js"&gt; &lt;/script&gt;
+            </code>
+        </pre>
+    </div><br><br>
+    <div class="cont">
+        <p>This example uses a file path to link to myScript.js:</p>
+    </div><br>
+    <div class="example_1"><br>
+        <h3>Example</h3>
+        <pre>
+            <code>
+                &lt;script src="/js/myScript.js"&gt; &lt;/script&gt;
+            </code>
+        </pre>
+    </div><br><br>
+    <div class="cont">
+        <p>This example uses no path to link to myScript.js:</p>
+    </div><br>
+    <div class="example_1"><br>
+        <h3>Example</h3>
+        <pre>
+            <code>
+                &lt;script src="myScript.js"&gt; &lt;/script&gt;
+            </code>
+        </pre>
+    </div><br>
+    <div class="cont">
+        <p class="warning"><b>!!</b>You can read more about file paths in the chapter <a href="html.html">HTML File Paths</a>.</p>
+    </div>
+    <div class="hh">
+        <div class="non"></div>
+        <div class="oui">
+            <a href="#header"><button>Up</button></a>
+        </div>
+    </div> <br>
+    <div class="footer" id="footer">
+		<div class="title">
+			<span>Dev academy</span><br><br>
+			<a href="#"><i class="fab fa-facebook">	</i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-whatsapp">	</i></a>
+			<a href="#"><i class="fab fa-linkedin">	</i></a>
+		</div>
+		<div class="block"><br><br>
+			<span class="copy">Copyright &COPY; 2023 All rights reserved Dev academy</span>
+		</div>
+	</div> 
+</body>
+</html>

@@ -1,0 +1,285 @@
+*{
+    margin:0;
+}
+h1{
+    color:red;
+    font-family: 'Ubuntu', sans-serif;
+}   
+.continure{
+    margin: 0 25px;
+    font-size:18px;
+}
+.code{
+    color:red;
+    font-weight:bold;
+}
+.html,.head,.title,.body{
+    margin:8px;
+}
+.h1,.p{
+    border:2px gray solid;
+    margin:0px 8px;
+    width:50px;
+}
+.example{
+    background-color:whitesmoke;
+    font-weight:bold;
+}
+.ex{
+    font-size:41px;
+}
+.short{
+    width:800px;
+    height:20px;
+}
+h1 code,.html code{
+    background-color:white;
+}
+.less,.plus{
+    color:#017;
+}
+.header{
+    position:fixed;
+    background-color:orangered;
+    margin:0;
+    padding:18px; 
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    left:0;
+    right:0;
+}
+.header code{
+    background-color:transparent;
+    color:white;
+    font-size:30px;
+}
+.header h1,.copy{
+    color:#fff;
+}
+.header a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    font-size:23px;
+}
+.header a:hover{
+    color:#000;
+}
+.profile span:hover{
+    color: #fff;
+}
+.h{
+    font-size:53px;
+    font-weight:bold;
+    color:red;
+    background-color:transparent;
+    margin:0 530px;
+    border-bottom:4px red solid ;
+}
+.example h2{
+    align-items:center;
+    text-align:center;
+}
+.example_li{
+    display:flex;
+}
+.right_liste{
+    color:blue; 
+    display:flex;
+}
+.left_liste{ 
+    color:blueviolet;
+    display:flex;
+}
+footer{
+    background-color:gainsboro;
+    padding:0 0 15px 55px;
+    display:flex;
+    line-height:25px;
+}
+hr{
+    width:3px;
+    background-color:transparent;
+}
+.right a{
+    text-decoration:none;
+    color:#000;
+    font-size:30px;
+    font-weight:bold;
+    margin:auto;
+}
+footer a{
+    text-decoration:none;
+    color:#000 ;
+}
+button{
+    background-color:orangered;
+    border-radius:15px;
+    height:43px;
+    width:38px;
+    font-weight:bold;
+    color:#fff;
+    cursor:pointer;
+}
+.hh{
+    display:flex;
+    justify-content:space-around;
+    font-family:'Comic sans MS' ;
+}
+.green{
+    color:green;
+}
+.nor{
+    color:#000;
+}
+table{
+    color:red;
+    margin:2px 25px;
+}
+table td{
+    width:90px;
+}
+.resulte{
+    background-color:whitesmoke !important;
+}
+.resulte h1{
+    text-align:center;
+}
+.resulte code{
+    margin:0 15px;
+}
+.resulte div{
+    background-color: bisque;
+    padding:5px;
+}
+.img{
+    background-image:url(../img/user.png);
+    background-size:cover;
+    border-radius:50%;
+    width:90px;
+    height:90px;
+}
+i{
+    color: #fff;
+}
+.link{
+    color:#fff;
+    font-weight:bold;
+}
+.select{
+    border-radius:4px;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:1.6rem;
+    cursor:pointer;
+}
+.list{
+    margin-left:-13px;
+    text-align:center;
+    line-height:30px;
+    background-color:#fff;
+    border-radius:4px;
+    position:absolute;
+    opacity:0;
+    visibility:hidden;
+    transition:250ms;
+    border:2px solid #000;
+}
+.list ul li a{
+    margin-right:33px;
+    font-weight: bold;
+    font-size:18px;
+    color:black;
+}
+.Courses:hover .list{
+    opacity:1;
+    visibility:visible;
+}
+.list li:hover {
+    cursor: pointer;
+}
+.list .htmll:hover{
+    color:red;
+}
+.list .csss:hover{
+    color:blue;
+}
+.list .jss:hover{
+    color:#e3e313;
+}
+.footer{
+    background-color:rgba(255, 68, 0, 0.816);
+    display:flex;
+    justify-content: space-between;
+    height:28vh;
+    width:100%;
+}
+.footer .block{
+    margin-right:33px;
+}
+.fa-whatsapp{
+    color:green;
+}
+.fa-instagram{
+    color:purple;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-linkedin{
+    color:darkblue;
+}
+.fab{
+    font-size:26px;
+    margin: 10px;
+}
+.footer .title span{
+    color:#fff;
+    font-size:44px;
+    font-weight:bold;
+    font-family:Verdana;
+}
+.footer .title{
+    margin:30px 0 0 30px;
+}
+.footer span{
+    font-size:32px;
+    font-weight:bold;   
+}
+.block .copy{
+    font-size:14px;
+    font-weight:bold;
+    bottom:0;
+}
+.sum h1{
+    text-align:center;
+    margin-bottom:22px;
+}
+
+.sum-con{
+    background-color:whitesmoke;
+    display:flex;
+    padding-top:30px;
+    margin-left:30px;
+    line-height:25px;
+}
+.sum-con a{
+    text-decoration:none;
+    color:#000;
+}
+.sum-con a:hover{
+    border-bottom:2px solid #017;
+    font-weight:bold;
+    color:grey;
+}
+.sum-con a:hover .code,.sum-con a:hover span{
+    color:#017;
+}
+.leftt,.riight,.centt{
+    width:33%;
+    height:33%;
+    line-height:34px;
+}
